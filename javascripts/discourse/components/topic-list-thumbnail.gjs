@@ -89,7 +89,7 @@ export default class TopicListThumbnail extends Component {
         (if this.hasThumbnail "has-thumbnail" "no-thumbnail")
       }}
     >
-      <a href={{this.url}} aria-label={{this.topic.title}}>
+      <a href={{this.url}} role="img" aria-label={{this.topic.title}}>
         {{#if this.hasThumbnail}}
           <img
             class="background-thumbnail"
