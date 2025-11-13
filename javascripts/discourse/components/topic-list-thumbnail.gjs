@@ -98,6 +98,7 @@ export default class TopicListThumbnail extends Component {
             width={{this.width}}
             height={{this.height}}
             loading="lazy"
+            alt=""
           />
           <img
             class="main-thumbnail"
@@ -106,6 +107,7 @@ export default class TopicListThumbnail extends Component {
             width={{this.width}}
             height={{this.height}}
             loading="lazy"
+            alt=""
           />
         {{else}}
           <div class="thumbnail-placeholder">
